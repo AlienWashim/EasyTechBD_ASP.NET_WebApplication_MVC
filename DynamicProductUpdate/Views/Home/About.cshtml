@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<main aria-labelledby="title" class="container">
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h5 class="card-title">About Easy Tech BD Project</h5>
+            <p class="card-text">
+                Easy Tech BD is a web application built using ASP.NET MVC that showcases my learning journey in software development. This project incorporates several technologies and design patterns that enhance functionality and user experience.
+            </p>
+            <h6>Key Technologies Used:</h6>
+            <ul>
+                <li>ASP.NET Web Application MVC</li>
+                <li>Entity Framework for database operations</li>
+                <li>Microsoft SQL Server for data storage</li>
+                <li>Data Annotations for model validation</li>
+                <li>Responsive Design with Bootstrap</li>
+            </ul>
+            <h6>Project Features:</h6>
+            <p class="card-text">
+                The application includes an admin panel, where users with admin accounts can:
+            </p>
+            <ul>
+                <li>Add new products with details such as name, category, price, description, and image.</li>
+                <li>Add new categories and manage existing ones.</li>
+                <li>View, edit, and delete products and categories.</li>
+            </ul>
+            <p class="card-text">
+                If no image is provided for a product, a default icon representing Easy Tech BD is displayed. Regular users can browse the product list but will only see products added by the admin.
+            </p>
+            <h6>Future Enhancements:</h6>
+            <p class="card-text">
+                While the current version does not include buying options or account and balance management, I plan to implement these features in future projects. This will further enhance the functionality and user experience of the application.
+            </p>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

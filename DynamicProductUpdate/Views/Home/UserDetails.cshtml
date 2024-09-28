@@ -1,0 +1,60 @@
+﻿@model DynamicProductUpdate.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h6 class="shadow-sm">
+    <dd class="fw-bold shadow-sm">
+        <a href="@Url.Action("Index", "Home")" class="btn">
+            Home
+        </a>/ @Html.DisplayFor(model => model.Category.categoryName) / @Html.DisplayFor(model => model.productName)
+    </dd>
+</h6>
+
+<div class="border p-2 card card-body shadow-sm">
+
+    <dl class="dl-horizontal">
+        <div >
+            <dt class=" border-1 w-25 shadow-none border-bottom">
+                Price (BDT) : @Html.DisplayFor(model => model.productPrice) Taka
+            </dt>
+        </div>
+
+
+        <dd class="text-center">
+            @if (!string.IsNullOrEmpty(Model.productImage))
+            {
+                <img src="@Url.Content(Model.productImage)" alt="Product Image" style="max-width: 400px; max-height: auto;" />
+            }
+            else
+            {
+                <span>No Image</span>
+            }
+        </dd>
+
+        <dd class="text-center">
+            @Html.DisplayFor(model => model.productName)
+        </dd>
+
+        <dt>
+            Description
+        </dt>
+
+        <dd>
+            @Html.Raw(Model.productDescription.Replace(Environment.NewLine, "<br />"))
+        </dd>
+
+
+    </dl>
+</div>
+<p class="d-flex justify-content-between m-2">
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">
+        Back
+    </a>
+    <button class="btn btn-primary">
+        Buy
+    </button>
+
+</p>
+

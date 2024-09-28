@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<main aria-labelledby="title" class="container mt-5">
+
+    <div class="row mb-12 text-center">
+        <div class="col-md-6">
+            <h4 class="shadow-sm p-2"><strong>Developed by:</strong></h4>
+            <address class="mb-4">
+                Md. Washim Akram<br />
+                Software Developer<br />
+                BSc Graduate in Computer Science & Engineering<br />
+                <abbr title="Phone">Phone :</abbr> +8801737861695<br />
+                <a href="mailto:ws.akram330@email.com">ws.akram330@email.com</a>
+            </address>
+        </div>
+    </div>
+
+    <div class="text-center mb-5">
+        <h4 class="shadow-sm mt-4 p-3">Connect with Me:</h4>
+        <a href="https://linkedin.com/in/AlienWashim" class="btn btn-outline-primary mx-2 m-2" target="_blank">LinkedIn</a>
+        <a href="https://github.com/AlienWashim" class="btn btn-outline-dark mx-2 m-2" target="_blank">GitHub</a>
+        <a href="https://www.facebook.com/AlienWashim/" class="btn btn-outline-primary mx-2 m-2" target="_blank">Facebook</a>
+    </div>
+
+    <div class="text-center">
+        <a href="https://alienwashim.github.io" class="btn btn-primary" target="_blank">
+            View My Portfolio
+        </a>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Your message" required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

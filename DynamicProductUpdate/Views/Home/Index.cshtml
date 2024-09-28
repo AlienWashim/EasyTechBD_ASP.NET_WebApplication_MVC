@@ -1,0 +1,10 @@
+﻿@model IEnumerable<DynamicProductUpdate.Product>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <!-- Render the UserView -->
+    @Html.Partial("GuestView", Model)
+
+</main>

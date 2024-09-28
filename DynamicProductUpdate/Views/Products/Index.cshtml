@@ -1,0 +1,88 @@
+﻿@model IEnumerable<DynamicProductUpdate.Product>
+
+@{
+    ViewBag.Title = "Product";
+}
+
+<h2  class="card card-body shadow-sm">Product List</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-bordered table-responsive-sm shadow-sm">
+    <tr class="text-center">
+        <th style="width: 20%;">
+            Product
+        </th>
+        <th style="width: 10%;">
+            Category
+        </th>
+        <th style="width: 30%;">
+            Description
+        </th>
+        <th style="width: 10%;">
+            Price (BDT)
+        </th>
+        <th style="width: 10%;">
+            Image
+        </th>
+        <th style="width: 20%;">Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.productName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.categoryName)
+            </td>
+
+
+            <td class="text-truncate" style="max-width: 200px;">
+                <!-- Adjust the max-width as needed -->
+                @{
+                    // Set a maximum character limit for the description
+                    int maxChars = 255; // Adjust the character limit as needed
+                    string description = item.productDescription;
+
+                    if (description.Length > maxChars)
+                    {
+                        // Show only the truncated description
+                        string truncatedDescription = description.Substring(0, maxChars) + "...";
+                        <span title="@Html.Raw(description)">@Html.Raw(truncatedDescription)</span>
+                    }
+                    else
+                    {
+                        // If the description is within the limit, display it fully
+                        @Html.Raw(description)
+                    }
+                }
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.productPrice)
+            </td>
+            <td>
+                @* Check if the image path exists and display the image *@
+                @if (!string.IsNullOrEmpty(item.productImage))
+                {
+                    <img src="@Url.Content(item.productImage)" alt="Product Image" style="max-width: 50px; max-height: auto;" />
+                }
+                else
+                {
+                    <span>No Image</span>
+                }
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.productId }, new { @class = "btn btn-success" }) |
+                @Html.ActionLink("Details", "Details", new { id = item.productId }, new { @class = "btn btn-primary" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.productId }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

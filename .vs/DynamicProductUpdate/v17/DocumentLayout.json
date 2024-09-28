@@ -1,0 +1,344 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\views\\home\\userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\home\\userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|d:\\study\\life of a coder\\dynamicproductupdate\\dynamicproductupdate\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\views\\home\\guestview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\home\\guestview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|D:\\Study\\Life of a Coder\\DynamicProductUpdate\\dynamicproductupdate\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3B25888-B7D3-462A-9063-79A25EAFEC8F}|DynamicProductUpdate\\DynamicProductUpdate.csproj|solutionrelative:dynamicproductupdate\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T11:27:06.518Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T08:57:28.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T08:50:38.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T08:51:50.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Manage\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Manage\\Index.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Manage\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T08:51:10.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T07:42:39.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T07:39:50.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T04:31:10.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Products\\Create.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T03:17:06.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDetails.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\UserDetails.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Home\\UserDetails.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\UserDetails.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Home\\UserDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T08:36:23.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "DynamicProductUpdate\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T03:00:02.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GuestView.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\GuestView.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Home\\GuestView.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\GuestView.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Home\\GuestView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T15:29:47.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Products\\Details.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T12:45:16.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T12:45:11.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DynamicProductUpdate\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:37:21.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DynamicProductUpdate\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:26:10.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T15:04:57.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Site.css",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Content\\Site.css",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Content\\Site.css",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Content\\Site.css",
+              "RelativeToolTip": "DynamicProductUpdate\\Content\\Site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T13:23:29.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "DynamicProductUpdate\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "D:\\Study\\Life of a Coder\\DynamicProductUpdate\\DynamicProductUpdate\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "DynamicProductUpdate\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T12:44:45.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

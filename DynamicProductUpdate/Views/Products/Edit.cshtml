@@ -1,0 +1,86 @@
+﻿@model DynamicProductUpdate.Product
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2 class="card card-body shadow-sm">Edit this product</h2>
+
+@using (Html.BeginForm("Edit", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row shadow-sm border p-2 m-1 card-body">
+        <!-- Left Column: Product Information -->
+        <div class="col-md-8">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.productId)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.productName, "Product Name", htmlAttributes: new { @class = "control-label" })
+                <div>
+                    @Html.EditorFor(model => model.productName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.productName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.categoryId, "Category", htmlAttributes: new { @class = "control-label" })
+                <div>
+                    @Html.DropDownList("categoryId", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.categoryId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.productPrice, "Price (BDT)", htmlAttributes: new { @class = "control-label" })
+                <div>
+                    @Html.EditorFor(model => model.productPrice, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.productPrice, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.productDescription, "Description", htmlAttributes: new { @class = "control-label" })
+                <div>
+                    @Html.TextAreaFor(model => model.productDescription, new { @class = "form-control", rows = 10 })
+                    @Html.ValidationMessageFor(model => model.productDescription, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Image Section -->
+        <div class="col-md-4">
+            <div class="form-group">
+                @Html.Label("Current Image", htmlAttributes: new { @class = "control-label" })
+                <div>
+                    @if (!string.IsNullOrEmpty(Model.productImage))
+                    {
+                        <img src="@Url.Content(Model.productImage)" alt="Product Image" style="max-width: 300px; height: auto;" />
+                    }
+                    else
+                    {
+                        <span>No image available</span>
+                    }
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Change image", htmlAttributes: new { @class = "control-label" })
+                <div>
+                    <input type="file" name="productImage" class="form-control" />
+                    @Html.ValidationMessage("productImage", "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group mt-3">
+        <input type="submit" value="Save" class="btn btn-success m-2" />
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

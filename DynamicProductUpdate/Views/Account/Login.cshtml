@@ -1,0 +1,68 @@
+﻿@using DynamicProductUpdate.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+<main aria-labelledby="title" class="d-flex align-items-start justify-content-center vh-100">
+    <div class="card shadow-sm w-100 w-md-75 w-lg-50 mt-2">
+        <div class="row g-0">
+            <div class="col-12 col-md-8 p-4">
+                <section id="loginForm">
+                    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <h4>Please Login</h4>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <div class="mb-3 row">
+                            @Html.LabelFor(m => m.Email, new { @class = "col-md-4 col-form-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            @Html.LabelFor(m => m.Password, new { @class = "col-md-4 col-form-label" })
+                            <div class="col-md-10">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <div class="offset-md-2 col-md-10">
+                                <div class="form-check">
+                                    @Html.CheckBoxFor(m => m.RememberMe, new { @class = "form-check-input" })
+                                    @Html.LabelFor(m => m.RememberMe, new { @class = "form-check-label" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <div class="offset-md-2 col-md-12">
+                                <input type="submit" value="Log in" class="btn btn-outline-dark w-100 w-md-25" />
+                            </div>
+                        </div>
+
+                        <p>
+                            @Html.ActionLink("Register as a new user", "Register")
+                        </p>
+                    }
+                </section>
+            </div>
+
+            <div class="col-12 col-md-4 p-4 bg-light">
+                <section id="socialLoginForm">
+                    @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

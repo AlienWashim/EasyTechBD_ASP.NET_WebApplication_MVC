@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Easy Tech BD</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-UlD8P0GOCi0lm9+b9KxyduG0LkWqODGhb03GD0YBvIYlWjghHJEOhK0g0eQ0Kvaf4P8DJiLPgHDptZR+5TgRRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        .nav-link.active {
+            background-color: #FF6500;
+            color: black !important;
+        }
+
+        .nav-link:hover {
+            background-color: #FF6500;
+        }
+
+
+        .col-md-2 ul li .nav-link.active {
+            background-color: #FF6500;
+        }
+
+
+        .nav-link {
+            text-align: center;
+            background: #1E3E62;
+            border-radius: 8px;
+            color: white;
+            transition: .5s;
+        }
+
+        .nav-link::before {
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #ffee10;
+            transition: .5s;
+            transform: scale(.9);
+            z-index: -1;
+        }
+
+        .nav-link:hover::before {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px #ffee10;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <span style="font-family:'Monotype Corsiva';">@Html.ActionLink("Easy Tech BD", "Index", "Home", new { area = "" }, new { @class = "navbar-brand fs-2" })</span>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1 gap-1 text-white">
+                    <li>@Html.ActionLink("Products", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid"  style="margin-top:60px">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="d-flex flex-row flex-md-grow-1">
+                <div class="col-md-2 border shadow-sm  h-50" style="margin-top:10px">
+                    <div class="card-header p-3 border-bottom bg-dark w-100 text-white text-center">
+                        <h4 class="fst-normal">Admin Panel</h4>
+                    </div>
+                    <ul class="navbar-nav flex-column p-lg-3 bg-dark">
+                        <li>@Html.ActionLink("Product", "Index", "Products", new { area = "" }, new { @class = "nav-link p-2 m-1" })</li>
+                        <li>@Html.ActionLink("Category", "Index", "Categories", new { area = "" }, new { @class = "nav-link p-2 m-1" })</li>
+                    </ul>
+                </div>
+
+                <div class="container body-content min-vh-100">
+                    @RenderBody()
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-md-12 p-4">
+                <div class="container body-content">
+                    @RenderBody()
+                </div>
+            </div>
+        }
+    </div>
+
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+<footer class="row float-end vw-100 position-relative fixed-bottom">
+    <div class="col text-center">
+        <hr />
+        <p>&copy; @DateTime.Now.Year - Easy Tech BD | All rights reserved | Developed by Md. Washim Akram</p>
+    </div>
+</footer>
+</html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var navLinks = document.querySelectorAll('.nav-link');
+
+        navLinks.forEach(function (link) {
+            link.addEventListener('click', function () {
+                navLinks.forEach(function (link) {
+                    link.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+
+            if (window.location.href === link.href) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+

@@ -1,0 +1,81 @@
+﻿@model IEnumerable<DynamicProductUpdate.Product>
+
+<div class="container">
+    <div class="row">
+
+        <!-- Search and Filter Section -->
+        <div class="col-md-12 mb-3 ">
+            <div class="card card-body shadow-sm"">
+                <form id="filterSearchForm" method="get" action="@Url.Action("GuestView", "Home")">
+                    <div class="row align-items-lg-stretch justify-content-between">
+
+                        <!-- Filter by Category (aligned to the left) -->
+                        <div class="col-md-6 d-flex justify-content-start">
+                            <label for="categoryFilter" class="form-label me-2">Filter by Category</label>
+                            <select id="categoryFilter" name="category" class="form-select" aria-label="Select Product Category" onchange="document.getElementById('filterSearchForm').submit();">
+                                <option value="" @(string.IsNullOrEmpty(Request["category"]) ? "selected" : "")>All</option>
+                                @foreach (var category in ViewBag.Categories)
+                                {
+                                    <option value="@category.categoryName" @(Request["category"] == category.categoryName ? "selected" : "")>@category.categoryName</option>
+                                }
+                            </select>
+                        </div>
+
+                        <!-- Search Field (aligned to the right) -->
+                        <div class="col-md-6 d-flex justify-content-end">
+                            <div class="input-group">
+                                <input type="text" id="searchInput" name="searchTerm" class="form-control" placeholder="Search..." value="@Request["searchTerm"]">
+                                <button type="submit" class="btn btn-outline-secondary searchBtn" id="searchButton" style="font-family:Georgia">
+                                    <i class="fas fa-search"></i> Search
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <!-- Product Cards Section -->
+        @foreach (var item in Model)
+        {
+            <div class="col-12 col-md-3 mb-2 d-flex product-card" data-category="@item.Category.categoryName">
+                <div class="card w-100 h-100 d-flex flex-column  shadow-sm">
+                    <!-- Fixed image container -->
+                    <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+                        <img src="@Url.Content(item.productImage)" class="card-img-top p-1" alt="@item.productName" style="max-height: 100%; max-width: 100%; object-fit: scale-down;" />
+                    </div>
+
+                    <!-- Card body -->
+                    <div class="card-body d-flex flex-column">
+                        <!-- Fixed product name container -->
+                        <h5 class="card-title" style="min-height: 50px; max-height: 50px; overflow: hidden; text-align: left;">@item.productName</h5>
+                        <!-- Bottom section with price and details button -->
+                        <div class="mt-auto d-flex justify-content-between align-items-center">
+                            <p class="card-text mb-0">Price: @item.productPrice BDT</p>
+                            <a href="@Url.Action("UserDetails", "Home", new { id = item.productId })" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        }
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            // Allow Enter key to submit the search form
+            $('#searchInput').keypress(function (e) {
+                if (e.which == 13) { // Enter key pressed
+                    e.preventDefault();
+                    $('#filterSearchForm').submit();
+                }
+            });
+        });
+    </script>
+}

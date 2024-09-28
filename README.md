@@ -18,7 +18,7 @@ In this section, the Customer can view a list of all available products:
 
 
 ## 3. Admin Side Product List
-![Admin Product List](https://github.com/AlienWashim/EmployeeManagementSystem-ASP.NET-Core/blob/615e4414de6db190106284b430547a1f4afdc270/EditEmployee.png)
+![Admin Product List](https://github.com/AlienWashim/EasyTechBD_ASP.NET_WebApplication_MVC/blob/b567dbc7c8bc96abebc8f7dd9ec70ddcdfd2be58/AdminProductList.png)
 
 
 ## 4. Admin View Details
